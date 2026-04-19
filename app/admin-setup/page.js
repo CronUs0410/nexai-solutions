@@ -38,7 +38,7 @@ export default function AdminSetup() {
       <div className="max-w-md w-full space-y-8 bg-card p-10 rounded-2xl border border-border relative z-10 shadow-2xl text-center">
         <h2 className="text-2xl font-bold text-text mb-4">Admin Setup Helper</h2>
         <p className="text-muted mb-8">
-          This page only works if you are logged in and your current role is "user".
+          This page only works if you are logged in and your current role is &quot;user&quot;.
           It will upgrade you to superadmin.
         </p>
         <button
