@@ -22,8 +22,9 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "NexAI Solutions | AI Services & Workflow Automation",
-  description: "AI-powered workflow solutions for businesses in Mundra, Gandhidham & Mumbai. We automate, you grow.",
+  title: "NexAI Solutions | AI Automation & Workflow Services — Mundra",
+  description: "Custom AI automation services for businesses in Mundra, Gandhidham & Mumbai. WhatsApp to Excel, data entry AI, document processing, website development. Book free demo.",
+  keywords: "AI automation Mundra, workflow automation Gujarat, AI services Gandhidham, NexAI Solutions",
 };
 
 export default function RootLayout({ children }) {

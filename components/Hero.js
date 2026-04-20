@@ -21,24 +21,34 @@ export default function Hero() {
             {"// AI Services & Workflow Solutions"}
           </span>
         </div>
+
         <h1 className="text-5xl md:text-7xl font-extrabold font-heading tracking-tight mb-4">
-          <span className="block text-text fade-up delay-100">We Automate.</span>
-          <span className="block text-primary fade-up delay-200 mt-2">You Grow.</span>
+          <span className="block text-text fade-up delay-100">Stop Wasting Hours</span>
+          <span className="block text-primary fade-up delay-200 mt-2">on Manual Work.</span>
         </h1>
-        <p className="mt-6 text-xl text-muted max-w-2xl mx-auto font-body fade-up delay-300">
-          AI-powered workflow solutions for businesses in Mundra, Gandhidham & Mumbai. We build systems that save you hours of manual work daily.
+
+        <p className="mt-6 text-xl text-muted max-w-2xl mx-auto font-body fade-up delay-300 leading-relaxed">
+          We understand your daily business tasks and build custom AI systems that handle them
+          automatically — WhatsApp to Excel, data entry, documents, reports and more.
         </p>
+
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4 fade-up delay-400">
-          <a href="#services" className="bg-primary text-bg font-bold px-8 py-4 rounded hover:bg-primary-lt hover:scale-105 transition-all">
-            Our Services ↓
+          <a
+            href="#contact"
+            className="bg-primary text-bg font-bold px-8 py-4 rounded hover:bg-primary-lt hover:scale-105 transition-all"
+          >
+            🚀 Book Free Demo
           </a>
-          <a href="#contact" className="bg-transparent border border-primary text-primary font-bold px-8 py-4 rounded hover:bg-primary/10 hover:scale-105 transition-all">
-            Contact Us
+          <a
+            href="#how-it-works"
+            className="bg-transparent border border-primary text-primary font-bold px-8 py-4 rounded hover:bg-primary/10 hover:scale-105 transition-all"
+          >
+            See How It Works ↓
           </a>
         </div>
       </div>
 
-      {/* Floating element decorative */}
+      {/* Floating decorative elements */}
       <div className="absolute bottom-20 right-20 w-16 h-16 border border-primary/30 rounded-lg float opacity-50 hidden md:block backdrop-blur-sm"></div>
       <div className="absolute top-40 left-20 w-12 h-12 border border-primary/30 rounded-full float opacity-50 hidden md:block backdrop-blur-sm" style={{ animationDelay: '2s' }}></div>
     </section>

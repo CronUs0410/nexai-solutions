@@ -41,6 +41,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-8">
           <Link href="/" className="text-sm font-body hover:text-primary transition-colors hover:scale-105">Home</Link>
           <a href="#services" className="text-sm font-body hover:text-primary transition-colors hover:scale-105">Services</a>
+          <a href="#how-it-works" className="text-sm font-body hover:text-primary transition-colors hover:scale-105">How It Works</a>
           <a href="#about" className="text-sm font-body hover:text-primary transition-colors hover:scale-105">About</a>
           <a href="#contact" className="text-sm font-body hover:text-primary transition-colors hover:scale-105">Contact</a>
           
@@ -74,7 +75,7 @@ export default function Navbar() {
           )}
 
           <a href="#contact" className="text-sm font-body bg-primary text-bg px-5 py-2 font-bold rounded hover:bg-primary-lt hover:scale-105 transition-all">
-            Get Quote
+            Book Free Demo
           </a>
         </div>
 
@@ -98,6 +99,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-surface hover:text-primary">Home</Link>
             <a href="#services" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-surface hover:text-primary">Services</a>
+            <a href="#how-it-works" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-surface hover:text-primary">How It Works</a>
             <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-surface hover:text-primary">About</a>
             <a href="#contact" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-surface hover:text-primary">Contact</a>
             {user ? (
