@@ -20,12 +20,6 @@ const DEFAULT_SERVICES = [
   { icon: "🎨", name: "Poster Design", description: "Professional posters and graphics for your brand", order: 7 },
 ];
 
-const EXAMPLE_PILLS = [
-  { icon: "💬", text: "WhatsApp → Excel Automation" },
-  { icon: "🤖", text: "AI-Based Data Entry" },
-  { icon: "📄", text: "Document Processing" },
-  { icon: "🌐", text: "Website Development" },
-];
 
 async function seedServices() {
   console.log("[Services] Collection empty – seeding default services…");
@@ -108,31 +102,12 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section header */}
-        <div className="text-center mb-6">
+        <div className="text-center mb-16">
           <span className="inline-block font-mono text-primary text-sm mb-3">{"// what we do"}</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-4">What We Do</h2>
+          <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-4">Our Services</h2>
           <p className="text-muted font-body text-lg max-w-xl mx-auto">
             We convert your daily manual business tasks into intelligent automated workflows.
           </p>
-        </div>
-
-        {/* Example pills */}
-        <div className="flex flex-wrap justify-center gap-3 mb-14">
-          {EXAMPLE_PILLS.map((pill) => (
-            <span
-              key={pill.text}
-              className="flex items-center gap-2 text-xs font-mono"
-              style={{
-                background: "rgba(245,158,11,0.1)",
-                border: "1px solid rgba(245,158,11,0.3)",
-                color: "#f59e0b",
-                borderRadius: "999px",
-                padding: "6px 16px",
-              }}
-            >
-              {pill.icon} {pill.text}
-            </span>
-          ))}
         </div>
 
         {/* Content */}
