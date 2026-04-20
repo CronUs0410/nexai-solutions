@@ -22,9 +22,46 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "NexAI Solutions | AI Automation & Workflow Services — Mundra",
-  description: "Custom AI automation services for businesses in Mundra, Gandhidham & Mumbai. WhatsApp to Excel, data entry AI, document processing, website development. Book free demo.",
-  keywords: "AI automation Mundra, workflow automation Gujarat, AI services Gandhidham, NexAI Solutions",
+  title: 'NexAI Solutions | AI Automation Services in Mundra, Gujarat',
+  description:
+    'Best AI automation and workflow services in Mundra, Gandhidham and Mumbai. WhatsApp to Excel, data entry AI, document processing. Book free demo today.',
+  keywords: [
+    'AI automation Mundra',
+    'AI services Gandhidham',
+    'workflow automation Gujarat',
+    'AI data entry Mundra',
+    'NexAI Solutions',
+    'AI services Kutch',
+    'AI services in Mundra',
+    'AI services of Mundra',
+    'AI Mundra',
+    'Mundra AI',
+    'online services of Mundra',
+    'AI services in Gandhidham',
+    'AI services of Gandhidham',
+    'AI Gandhidham',
+    'Gandhidham AI',
+    'online services of Gandhidham',
+    'AI services in Mumbai',
+    'AI services of Mumbai',
+    'AI Mumbai',
+    'Mumbai AI',
+    'online services of Mumbai',
+    'AI services in India',
+    'AI services of India',
+    'AI India',
+    'India AI',
+    'online services of India',
+  ],
+  openGraph: {
+    title: 'NexAI Solutions | AI Automation',
+    description:
+      'Custom AI workflow solutions for businesses in Mundra & Gandhidham',
+    url: 'https://nexai-solutions10.vercel.app',
+    siteName: 'NexAI Solutions',
+    locale: 'en_IN',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
